@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Holiday Hype</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="heading"><img src="logo.png" class="img-fluid m-2" alt="logo"
+            style="width: 90px;"><strong class="fw-bold display-4 pt-5 mt-5">Holiday Hype </strong></h1>
+        <h3 class="title">Welcome to The website</h3>
+    </header>
+
+   
+    <div class="container">
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Login</button>
+            <button class="signup">Signup</button>
+        </div>
+
+        
+        <div class="form-section">
+
+            <!-- login form -->
+            <form action="" method="post">
+            <div class="login-box">
+                <input type="email" class="email ele" name="email" placeholder="youremail@email.com">
+                <input type="password" name="password" class="password ele" placeholder="password">
+                <button class="clkbtn" type="submit" name="Login">Login</button>
+            </div>
+        </form>
+
+            <!-- signup form -->
+            <form action="http://localhost:3000/signin" method="post">
+            <div class="signup-box">
+                
+                <input type="text" class="name ele" name="name" placeholder="Enter your name">
+                <input type="email" class="email ele" name="email" placeholder="youremail@email.com">
+                <input type="password" class="password ele" name="password" placeholder="password">
+                <input type="password" class="password ele" name="confirmPassword" placeholder="Confirm password">
+                <button class="clkbtn" type="submit" >Signup</button>
+            </form>
+            </div>
+        
+        </div>
+    </div>
+    <script src="signin.js"></script>
+</body>
+
+</html>
